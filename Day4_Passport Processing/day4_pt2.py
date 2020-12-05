@@ -22,12 +22,12 @@ for i in input_bpass_list:
         for k in range(0,len(i)-1,2):
             att_dict[i[k]] = i[k+1]
 
-        matched_byr = bool(re.match("19[2-9][0-9]|200[0-2]", att_dict["byr"]))
-        matched_iyr = bool(re.match("201[0-9]|2020", att_dict["iyr"]))
-        matched_eyr = bool(re.match("202[0-9]|2030", att_dict["eyr"]))
-        matched_hgt = bool(re.match("1[5-8][0-9][cm]|19[0-3][cm]|59[in]|6[0-9][in]|7[0-6][in]", att_dict["hgt"]))
-        matched_hcl = bool(re.match("#{1}[a-z0-9]{6}$", att_dict["hcl"]))
-        matched_pid = bool(re.match("[0-9]{9}$", att_dict["pid"]))
+        matched_byr = bool(re.match(r"19[2-9][0-9]|200[0-2]", att_dict["byr"]))
+        matched_iyr = bool(re.match(r"20(1[0-9]|20)", att_dict["iyr"]))
+        matched_eyr = bool(re.match(r"20(2[0-9]|30)", att_dict["eyr"]))
+        matched_hgt = bool(re.match(r"(1[5-8][0-9]|19[0-3])[cm]|(59|6[0-9]|7[0-6])[in]", att_dict["hgt"]))
+        matched_hcl = bool(re.match(r"#{1}[a-f0-9]{6}$", att_dict["hcl"]))
+        matched_pid = bool(re.match(r"\d{9}$", att_dict["pid"]))
         
         matched_ecl = True
         if att_dict["ecl"] not in ["amb", "blu", "brn", "gry", "grn", "hzl", "oth"]:
