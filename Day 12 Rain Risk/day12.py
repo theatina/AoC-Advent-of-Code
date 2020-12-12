@@ -43,9 +43,7 @@ def move_transcription(moves):
 def ship_coords(moving_direction,steps,facing_direction):
     
     north_south_coords = [ +steps[i] if moving_direction[i]=="N" else -steps[i] if moving_direction[i]=="S" else 0 for i in range(len(moving_direction))  ]
-    
     east_west_coords = [ +steps[i] if moving_direction[i]=="E" else -steps[i] if moving_direction[i]=="W" else 0 for i in range(len(moving_direction))  ]
-    
     map_moves = [ sum(north_south_coords), sum(east_west_coords) ]
 
     return map_moves
