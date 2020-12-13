@@ -9,10 +9,10 @@ Part 1
 '''
 
 input_file = [ i for i in list(open("./inputDay13.txt","r").read().split("\n")) ]
-//print(input_file)
+# print(input_file)
 time = int(input_file[0])
 buses = [  int(i) for i in input_file[1].split(",") if i !="x"  ]
-//print(buses)
+# print(buses)
 
 found = False
 counter = 0
