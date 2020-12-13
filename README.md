@@ -16,7 +16,9 @@
   <a align="center" href="https://github.com/theatina/AoC_2020/tree/main/Day%2009%20Encoding%20Error" > 09 </a> <b>|</b> 
   <a align="center" href="https://github.com/theatina/AoC_2020/tree/main/Day%2010%20Adapter%20Array" > 10 </a> <b>|</b> 
   <a align="center" href="https://github.com/theatina/AoC_2020/tree/main/Day%2011%20Seating%20System" > 11 </a> <b>|</b> 
-  <a align="center" href="https://github.com/theatina/AoC_2020/tree/main/Day%2012%20Rain%20Risk" > 12 </a>
+  <a align="center" href="https://github.com/theatina/AoC_2020/tree/main/Day%2012%20Rain%20Risk" > 12 </a> <b>|</b>
+  <a align="center" href="https://github.com/theatina/AoC_2020/tree/main/Day%2013%20Shuttle%20Search" > 13 </a> 
+  
    
   <br>
   <br>
