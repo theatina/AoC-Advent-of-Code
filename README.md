@@ -1,12 +1,10 @@
-
-<h1></h1>
 <h1 align="center" >AoC <a href="https://adventofcode.com/2023" title="Why not try it yourself ! ?" >2023</a></h1>
 
 <p align="center"> 
   <a align="center" href="https://github.com/theatina/AoC-Advent-of-Code/tree/main/2023/Day%2001%20Trebuchet" > 01 </a> <b>|</b> 
   <a align="center" href="https://github.com/theatina/AoC-Advent-of-Code/tree/main/2023" > 02 </a> 
 
-<h1></h1>
+  ***
 <h1 align="center" >AoC <a href="https://adventofcode.com/2020" title="Why not try it yourself ! ?" >2020</a></h1>
 
 <p align="center"> 
@@ -28,9 +26,9 @@
    
   <br>
   <br>
-  
-  <img align="center" src="https://dingyue.ws.126.net/BuNX9FJm398SNOdEEf2dtfLhucHnioRSW3uDofbjxHOSq1545365357224.gif" title="Merry Christmas ! !">
- 
+
+  <img align="center" src="https://github.com/theatina/AoC-Advent-of-Code/blob/main/Media/xmas_tree.gif" title="Merry Christmas ! !">
+
   <br>
-<p align="center">
+
 
