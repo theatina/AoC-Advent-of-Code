@@ -34,5 +34,3 @@
   <br>
 <p align="center">
 
-
-<!-- ![Advent of Code](https://adventofcode.com/2020 "Why not try it yourself ! ?") Days in Python -->
